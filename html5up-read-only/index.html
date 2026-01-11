@@ -16,7 +16,7 @@
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
+					<span class="image avatar"><img src="images/linkedln_profile_img.jpeg" alt="" /></span>
 					<h1 id="logo"><a href="#">Emily Cao</a></h1>
 					<p>Data Scientist who loves working at the intersection of tech and investment.</p>
 				</header>
@@ -25,17 +25,18 @@
 						<li><a href="#one" class="active">About</a></li>
 						<li><a href="#two">Professional Experience</a></li>
 						<li><a href="#three">Education</a></li>
-						<li><a href="#four">Projects</a></li>
-						<li><a href="#five">Projects</a></li>	
+						<!-- <li><a href="#four">Projects</a></li> -->
+						<li><a href="#five">Certifications</a></li>
+						<li><a href="#six">Hobbies</a></li>
+						<li><a href="#seven">Contact</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<!-- todo-need to fix the url link: open as file:///Users/sijiacao/Documents/src/emilycsj.github.io/html5up-read-only/www.linkedin.com/in/emily-c-529647107 need to remove all prev links -->
+						<li><a href="www.linkedin.com/in/emily-c-529647107" class="icon brands fa-linkedin"><span class="label">Linkedln</span></a></li>
+						<!-- <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> -->
+						<!-- <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li> -->
 					</ul>
 				</footer>
 			</section>
@@ -49,67 +50,207 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/banner_green.png" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+										<h2>Emily Sijia Cao</h2>
 									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+									<p>
+										Emily is a Data Scientist who has over five years of experience working in consulting and pension fund industries, where she has gained extensive experience in NLP, LLM application, and building scalable data solutions.<br /> 
+										Her work focuses on building, maintaining, and improving NLP/LLM applications, developing scalable data pipelines, and applying advanced statistical modeling to generate actionable business insights.<br /> 
+										<b>Emily loves working at the intersection of tech and investments.</b>
+										</p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
+									<h3>Professional Experience</h3>
+									<header>
+										<h4>Data Scientist @ Ontario Teachers Pension Plan</h4>
+										<p>April 2022 - Present, Toronto, ON</p>
+									</header>
+									<div class="row">
+										<h5>Partner with Quantitative Researchers on building trading signals using sentiments and topics from textual data</h5>
+											<blockquote>My contribution serves as important foundational components of the NLP systematic trading strategy which will be launched in 2026 which expects to generate <b>$10M-20M value add</b> to the firm, as well as future strategies that use this underlying textual data, output, and logics.</blockquote>
+											<ul>
+												<li>Designed, built, and optimized data engineering pipeline for earnings transcript processing. Ensuring data integrity, preprocessing quality, and data completeness</li>
+												<li>Conducted <b>research and experimentation</b> on accessing vendor data quality and portfolio coverage (S&P 500 Earnings Calls, central bank statements)</li> 
+												<li>Processed 124k transcripts covering the entire equity portfolio and generated 300k <b>synthetic sentiment labels</b> using GPT-4o for fine-tuning purpose</li> 
+												<li><b>Inferred sentiment (hawkish-dovish)</b> and topics using central bank statements and earnings call transcripts using LLM, experimented different prompting techniques <b>(few-shot, relevance filtering, forward-looking filtering)</b> and inference optimization techniques <b>(KV Cache, flash-attention)</b></li>
+												<li>Engineered a parallel API processing script, reducing processing time from over <b>2 hours to 15 mins</b></li>
+												<li>Developed an automatic text annotation site using Doccano to facilitate <b>human-in-the-loop</b> labeling</li>
+											</ul>
+										<h5>Predictive Modelling and traditional Data Science & Analytics</h5>
+											<blockquote>I partnered with traders, portfolio managers, and investment professionals to develop and deploy traditional ML models that addressed real trading and investment challenges. Delivered a market regime clustering model to improve trading efficiency and maintaining the trading cost model that became the foundation for pre- and post-trade cost analysis. </blockquote>
+											<ul>
+												<li>Developed a <b>KMeans</b> Clustering model to classify equity securities under various market features</li>
+												<li>Managed daily <b>trade cost predictive model</b> pipeline, monthly broker allocation using <b>Monte Carlo Simulation</b>, and provided ad hoc support for market regime classification model </li>
+												<li>Developed Python scripts to auto-generate trading data and created a <b>Trade Cost Analysis PowerBI dashboard</b> for visualizing KPIs, broker analytics, and portfolio manager trading data. The dashboard was used by traders to gain analytical insights quickly and share info with PMs</li>
+											</ul>
+										<h5>Building Generative AI, Agents and LLMOps</h5>
+											<blockquote></blockquote>
+											
+
+
+
+
+
+
+
+
+
+
+
+
+									<!-- <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> -->
+									<header>
+										<h4>Senior Technology Consultant - Advanced Data Analytics </h4>
+										<p><b>Ernst & Young</b> July 2020 - April 2022, Toronto, ON</p>
+									</header>
+									<div class="row">
+										<div class="col-6 col-12-xsmall">
+											
+											<h5>Unordered</h5>
+											<ul>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Sagittis adipiscing lorem eleifend.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ul>
+											<h5>Unordered</h5>
+											<ul>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Sagittis adipiscing lorem eleifend.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ul>
+											<h5>Unordered</h5>
+											<ul>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Sagittis adipiscing lorem eleifend.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ul>
+
+										</div>
+									<!-- <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p> -->
+									<header>
+										<h4>Assurance Associate - Financial Services, Wealth and Asset Management </h4>
+										<p><b>Ernst & Young</b> Sep 2018 - April 2019, Boston, MA</p>
+									</header>
+									<div class="row">
+										<div class="col-6 col-12-xsmall">
+											<h5>Unordered</h5>
+											<ul>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Sagittis adipiscing lorem eleifend.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ul>
+											<h5>Alternate</h5>
+											<ul class="alt">
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Sagittis adipiscing lorem eleifend.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-xsmall">
+											<h5>Ordered</h5>
+											<ol>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Etiam vel felis at lorem sed viverra.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+												<li>Dolor pulvinar etiam magna etiam.</li>
+												<li>Etiam vel felis at lorem sed viverra.</li>
+												<li>Felis enim feugiat dolore viverra.</li>
+											</ol>
+											<h5>Icons</h5>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+												<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+												<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
+											</ul>
+										</div>
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
 								</div>
 							</section>
 
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<div class="features">
-										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-									</div>
+									<h3>Education</h3>
+									<h4>
+										<span class="left">School of Business, York University </span>
+										<span class="right">2019-2020</span>
+									</h4>
+									<p><b>Master of Business Analytics</b><br />
+									Coursework: Data Science, Machine Learning, Artificial Intelligence, Predictive Modeling, Multivariable Statistics, and Big Data
+									</p>
+									<hr />
+									<h4>Boston University 2014-2018</h4>
+									<p><b>Bachelor of Science in Business Administration, Concentrate in Accounting and Finance, Magna Cum Laude (3.8-3.9)</b><br />
+										<b>Bachelor of Arts in Economics, Cum Laude (3.5-3.7)</b><br />
+									Activities and Honors: Lifetime member of Beta Gamma Sigma, member of Boston University Consulting Group
+									</p>
 								</div>
 							</section>
-
 						<!-- Four -->
-							<section id="four">
+						<section id="four">
+							<div class="container">
+								<header class="major">
+									<h2>Read Only</h2>
+									<p>Just an incredibly simple responsive site<br />
+									template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+								</header>
+								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+							</div>
+						</section>
+						<!-- Five -->
+						<section id="five">
+							<div class="container">
+								<header class="major">
+									<h2>Read Only</h2>
+									<p>Just an incredibly simple responsive site<br />
+									template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+								</header>
+								<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+							</div>
+						</section>
+						<!-- Six -->
+						<section id="Six">
+							<div class="container">
+								<h3>A Few Accomplishments</h3>
+								<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+								<div class="features">
+									<article>
+										<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Possibly broke spacetime</h4>
+											<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Terraformed a small moon</h4>
+											<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</div>
+									</article>
+									<article>
+										<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+										<div class="inner">
+											<h4>Snapped dark matter in the wild</h4>
+											<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+										</div>
+									</article>
+								</div>
+							</div>
+						</section>
+
+						<!-- Seven -->
+							<section id="seven">
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
@@ -129,10 +270,11 @@
 									</form>
 								</div>
 							</section>
+						
 
-						<!-- Five -->
-						<!--
-							<section id="five">
+						<!-- Eight -->
+						
+							<section id="eight">
 								<div class="container">
 									<h3>Elements</h3>
 
@@ -459,7 +601,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 								</div>
 							</section>
-						-->
+						
 
 					</div>
 
